@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/10.webp"
+    },
+    {
+        "id": 2,
+        "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/11.webp"
+    },
+    {
+        "id": 3,
+        "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/12.webp"
+    },
+    {
+        "id": 4,
+       "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/13.webp"
+    },
+    {
+        "id": 5,
+       "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/14.webp"
+    },
+    {
+        "id": 6,
+       "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/15.webp"
+    },
+    {
+        "id": 7,
+        "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/16.webp"
+    },
+    {
+        "id": 8,
+        "name":" Huawei Media Pad",
+        "price": 357,
+        "image": "images/17.webp"
+    }
+
+]

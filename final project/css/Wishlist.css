@@ -1,0 +1,336 @@
+:root
+{
+    --main-color: #0099cc;
+    --home-color:white;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family:Rubik, sans-serif;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+img
+{
+    width: 100%;
+}
+
+/**************navpar2 *******************/
+
+.header-card a
+{
+    color: var(--home-color);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav-menu
+{
+    display: flex;
+}
+.navbar-brand 
+{
+    font-size: 25px;
+}
+.navbar-expand-lg .navbar-collapse 
+{
+    /* background-color: tomato; */
+    justify-content: flex-end;
+}
+
+.bg-nav
+{
+    background-color: var(--main-color) !important;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.nav-item a,.navbar-brand 
+{
+    color: var(--home-color) !important;
+    font-weight: 700;
+}
+.nav-item a:hover
+{
+    color: #bbbbbb !important;
+    
+}
+.nav-link.active
+{
+    color: #bbbbbb !important;
+}
+.dropdown-menu a
+{
+    color: black !important;
+}
+.dropdown-menu a:hover
+{
+    color: black !important;
+}
+
+/*************end navpar2 *****************/
+
+
+
+/************* Cart *****************/
+.WishList-contact{
+    width: 100%;
+    font-size: 20px;
+    padding: 23px 0;
+    /* background-color: #7c7c7c; */
+}
+
+.WishList-contact h2{
+    /* font-size: .9em; */
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.WishList-contact p{
+    font-size: .8em;
+    font-weight: 300;
+    color: #828282;
+}
+.WishList-contact .total-price{
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(52, 195, 16); */
+    margin-bottom: 20px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+}
+.WishList-contact span{
+    font-size: 1em;
+    margin-left: 5px;
+}
+.WishList-contact .btn{
+    width: 100%;
+    padding: 30px 0;
+    /* background-color: green; */
+    text-align: right;
+    
+}
+.WishList-contact .btn button{
+    padding: 10px 30px;
+    /* width: 20%; */
+    font-size: .7rem;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #0099CC 100% );
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+}
+.WishList-contact .btn button:hover{
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+.WishList-contact .btn button:active{
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+}
+
+/*************end Cart *****************/
+
+
+/******************** Contact ***********************/
+
+.subscribe{
+    width: 100%;
+    /* background-color: tomato; */
+    padding: 60px 0;
+    font-size: 20px;
+}
+.subscribe .contenar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    /* background-color: #0099cc; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.subscribe .contenar .label{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 15px;
+    text-align: left;
+    /* background-color: #3c4fe0;     */
+}
+.imge 
+{
+    font-size: 50px;
+    color: #0099cc;
+}
+.subscribe .contenar .label .topic h3{
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.subscribe .contenar .label .topic p{
+    font-size: .9em;
+}
+.subscribe .contenar .input{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe .contenar .input input{
+    width: 80%;
+    padding: 17px 15px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+.subscribe .contenar .input button{
+    border-radius: 2%;
+    width: 20%;
+    padding: 17px 0;
+    background-color: #0099cc;
+    color: white;
+}
+@media screen and (max-width:992px){
+    .subscribe .contenar .label{
+        width: 80%;
+        justify-content: center;
+    }
+    .subscribe .contenar .input{
+        width: 80%;
+    }
+}
+@media screen and (max-width:700px){
+    .subscribe {
+        font-size: 18px;
+    }
+    .subscribe .contenar .input input{
+        padding: 15px 0;
+    }
+    .subscribe .contenar .input button{
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .subscribe {
+        font-size: 16px;
+    }
+    .subscribe .contenar .input input{
+        width: 90%;
+        padding: 13px 0;
+    }
+    .subscribe .contenar .input button{
+        width: 50%;
+        padding: 13px 0;
+    }
+}
+/********************end Contact ***********************/
+
+
+
+/********************** footer*************************/
+
+footer{
+    width: 100%;
+    background-color: #FAFAFA;
+    font-size: 20px;
+    padding: 40px 0;
+}
+footer .contenar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .contenar .about-me{
+    width: 50%;
+    /* background-color: #09c; */
+}
+footer .contenar .about-me h2{
+    font-size: 1.1em;
+    margin-bottom: 18px;
+}
+footer .contenar .about-me p{
+    font-size: .8em;
+    margin-bottom: 12px;
+}
+footer .contenar .about-me span{
+    display: block;
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #0099CC;
+}
+footer .contenar .about-me i{
+    margin-top: 15px;
+    font-size: 2em;
+    color: #0099CC;
+}
+footer .contenar .find-it{
+    width: 25%;
+    /* background-color: teal; */
+}
+footer .contenar .costumer-care{
+    width: 25%;
+    /* background-color: #09c; */
+}
+footer h4{
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 15px;
+    padding-left: 35px;
+}
+footer a , footer li{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+footer li{
+    font-size: .7em;
+    margin-bottom: 8px;
+}
+footer a{
+    color: rgba(0, 0, 0, .4);
+}
+footer a:hover{
+    color: #0099CC;
+}
+@media screen and (max-width:768px){
+    footer .contenar .about-me{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .contenar .find-it{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    footer .contenar .costumer-care{
+        width: 100%;
+    }
+}
+
+/**********************end footer *************************/
